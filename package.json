@@ -1,6 +1,6 @@
 {
-  "name": "@hiro/explorer",
-  "description": "The source code for the Stacks Blockchain explorer.",
+  "name": "@faircoin/explorer",
+  "description": "The source code for the FairCoin Blockchain explorer.",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm chakra-types && next build",
@@ -24,7 +24,7 @@
     "chakra-types": "pnpm chakra typegen ./src/ui/theme/theme.ts"
   },
   "version": "1.0.0",
-  "author": "Hiro Systems PBC (formerly Blockstack PBC)",
+  "author": "FairCoin Development Team",
   "dependencies": {
     "@chakra-ui/anatomy": "2.3.4",
     "@chakra-ui/react": "3.5.1",
@@ -177,7 +177,7 @@
     "typescript": "5.3.2",
     "whatwg-fetch": "3.6.20"
   },
-  "homepage": "https://explorer.hiro.so",
+  "homepage": "https://explorer.faircoin.network",
   "license": "MIT",
   "release": {
     "branches": [

@@ -30,3 +30,25 @@ export const meta: Metadata = {
     },
   },
 };
+
+export const DEFAULT_TITLE = 'FairCoin Explorer';
+
+export const DEFAULT_DESCRIPTION =
+  'Explore FairCoin, a sustainable and fair cryptocurrency. See your transactions, wallet, and network info in real time';
+
+export const DEFAULT_KEYWORDS = [
+  'FairCoin',
+  'Blockchain',
+  'Explorer',
+  'Cryptocurrency',
+  'Sustainable',
+  'Fair',
+  'Transactions',
+  'Blocks',
+  'Network',
+];
+
+export const DEFAULT_REFRESH_INTERVAL = 1000;
+
+export const DEFAULT_MAINNET_SERVER = 'https://api.faircoin.network';
+export const DEFAULT_TESTNET_SERVER = 'https://api.testnet.faircoin.network';
