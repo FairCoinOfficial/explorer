@@ -39,7 +39,7 @@ export const NetworkModeBtcAddressBaseUrlMap: Record<NetworkModes, string> = {
 };
 
 export const mainnetNetwork: Network = {
-  label: 'FairCoin Mainnet',
+  label: 'FAIRCoin Mainnet (⊜)',
   url: NetworkModeUrlMap[NetworkModes.Mainnet],
   btcBlockBaseUrl: NetworkModeBtcBlockBaseUrlMap[NetworkModes.Mainnet],
   btcTxBaseUrl: NetworkModeBtcTxBaseUrlMap[NetworkModes.Mainnet],
@@ -49,7 +49,7 @@ export const mainnetNetwork: Network = {
 };
 
 export const testnetNetwork: Network = {
-  label: 'FairCoin Testnet',
+  label: 'FAIRCoin Testnet (⊜)',
   url: NetworkModeUrlMap[NetworkModes.Testnet],
   btcBlockBaseUrl: NetworkModeBtcBlockBaseUrlMap[NetworkModes.Testnet],
   btcTxBaseUrl: NetworkModeBtcTxBaseUrlMap[NetworkModes.Testnet],
@@ -59,7 +59,7 @@ export const testnetNetwork: Network = {
 };
 
 export const devnetNetwork: Network = {
-  label: 'FairCoin Devnet',
+  label: 'FAIRCoin Devnet (⊜)',
   url: DEFAULT_DEVNET_SERVER,
   btcBlockBaseUrl: NetworkModeBtcBlockBaseUrlMap[NetworkModes.Testnet],
   btcTxBaseUrl: NetworkModeBtcTxBaseUrlMap[NetworkModes.Testnet],

@@ -21,7 +21,7 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/about',
+        source: '/stacks',
         destination: '/',
         permanent: true,
       },
@@ -31,7 +31,15 @@ const nextConfig = {
     optimizePackageImports: ['@chakra-ui/react'],
   },
   images: {
-    domains: ['assets.hiro.so'],
+    domains: ['api.fairco.in', 'explorer.fairco.in', 'fairco.in'],
+  },
+  webpack: (config, { isServer }) => {
+    config.module.rules.push({
+      test: /\.wasm$/,
+      type: 'asset/resource',
+    });
+
+    return config;
   },
 };
 
@@ -39,7 +47,7 @@ module.exports = withSentryConfig(withBundleAnalyzer(nextConfig), {
   // For all available options, see:
   // https://github.com/getsentry/sentry-webpack-plugin#options
 
-  org: 'hirosystems',
+  org: 'faircoin',
   project: 'explorer',
 
   uploadSourceMaps: true,

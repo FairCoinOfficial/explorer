@@ -16,7 +16,7 @@ import { IconButton } from '../../ui/IconButton';
 import { Caption } from '../../ui/typography';
 import { PageTitle } from '../_components/PageTitle';
 import { useUser } from './hooks/useUser';
-import { ConnectToStacks } from './layout/ConnectToStacks';
+import { ConnectToFairCoin } from './layout/ConnectToFairCoin';
 import { RightPanelSkeleton } from './layout/RightPanelSkeleton';
 import { SideNav } from './layout/SideNav';
 import { selectShowRightPanel, setUserData, toggleRightPanel } from './sandbox-slice';
@@ -45,7 +45,7 @@ export function Wrapper({ children }: { children: ReactNode }) {
         px={0}
         title={
           <Flex height={6} alignItems={'center'}>
-            Stacks Explorer Sandbox
+            FairCoin Explorer Sandbox
           </Flex>
         }
         topRight={
@@ -63,7 +63,7 @@ export function Wrapper({ children }: { children: ReactNode }) {
               variant="secondary"
               height={8}
             >
-              Connect Stacks Wallet
+              Connect FairCoin Wallet
             </Button>
           ) : (
             <HStack gap={6}>
@@ -88,12 +88,12 @@ export function Wrapper({ children }: { children: ReactNode }) {
         }
       >
         <Grid
-          gridTemplateColumns={'var(--stacks-sizes-16) minmax(0, 1fr)'}
+          gridTemplateColumns={'var(--FairCoin-sizes-16) minmax(0, 1fr)'}
           gap={0}
           minHeight={'768px'}
         >
           <SideNav />
-          {isConnected ? children : <ConnectToStacks />}
+          {isConnected ? children : <ConnectToFairCoin />}
           {showRightPanel ? <RightPanel /> : null}
         </Grid>
       </Section>

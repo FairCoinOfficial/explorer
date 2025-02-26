@@ -1,6 +1,6 @@
-# Contributing to the Stacks Explorer
+# Contributing to the FairCoin Explorer
 
-Thank you for considering contributing to the Stacks Explorer! We welcome any contributions, whether it's bug fixes, new features, or improvements to the existing codebase.
+Thank you for considering contributing to the FairCoin Explorer! We welcome any contributions, whether it's bug fixes, new features, or improvements to the existing codebase.
 
 ### Your First Pull Request
 
@@ -47,7 +47,7 @@ Once you are are happy with your code change, run these commands to be ready to 
 
 - Run `pnpm lint` to lint your code with eslint and run pritter to follow our coding guidelines
 - Run `pnpm test:unit` to run unit test
-- Run `pnpm build` to build the Stacks Explorer for production
+- Run `pnpm build` to build the FairCoin Explorer for production
 
 Now you are ready! When you send the PR make sure to sign the Contributor License Agreement and that all the checks are green.
 

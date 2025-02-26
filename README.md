@@ -1,7 +1,7 @@
-# Stacks Explorer
+# FairCoin Explorer
 
 
-![An image of the Stacks Explorer](/explorer-image.png 'Stacks Explorer')
+![An image of the FairCoin Explorer](/explorer-image.png 'FairCoin Explorer')
 
 
 ![CI/CD](https://github.com/blockstack/explorer/actions/workflows/ci.yml/badge.svg)
@@ -14,15 +14,15 @@
 | Dev         | ![Dev App Status](https://argo-cd.dev.hiro.tools/api/badge?name=explorer&revision=true)    |
 
 
-# Stacks Explorer
+# FairCoin Explorer
 
-The [Stacks Explorer](https://explorer.hiro.so/) is an observability tool that helps users, developers, miners, and investors understand the Stacks Blockchain. It's built with [React](https://reactjs.org/), [next.js](https://nextjs.org/) and [Chakra UI](https://chakra-ui.com/).
+The [FairCoin Explorer](https://explorer.hiro.so/) is an observability tool that helps users, developers, miners, and investors understand the FairCoin Blockchain. It's built with [React](https://reactjs.org/), [next.js](https://nextjs.org/) and [Chakra UI](https://chakra-ui.com/).
 
-This README will guide you through the process of setting up and running the Stacks Explorer locally and how to contribute to the project.
+This README will guide you through the process of setting up and running the FairCoin Explorer locally and how to contribute to the project.
 
 ## Bugs and feature requests
 
-If you encounter a bug or have a feature request for the Stacks Explorer, we encourage you to follow the steps below:
+If you encounter a bug or have a feature request for the FairCoin Explorer, we encourage you to follow the steps below:
 
  1. **Search for existing issues:** Before submitting a new issue, please search [existing and closed issues](https://github.com/hirosystems/explorer/issues) to check if a similar problem or feature request has already been reported.
  1. **Open a new issue:** If it hasn't been addressed, please [open a new issue](https://github.com/hirosystems/explorer/issues/new/choose). Choose the appropriate issue template and provide as much detail as possible, including steps to reproduce the bug or a clear description of the requested feature.
@@ -33,7 +33,7 @@ Please **do not** use the issue tracker for personal support requests or to ask 
 
 ## Contributing
 
-Development of the Explorer happens in the open on GitHub, and we are grateful to the community for contributing bugfixes and improvements. Read below to learn how you can take part in improving the Stacks Explorer.
+Development of the Explorer happens in the open on GitHub, and we are grateful to the community for contributing bugfixes and improvements. Read below to learn how you can take part in improving the FairCoin Explorer.
 
 ### Code of Conduct
 Please read the Explorer's [Code of conduct](https://github.com/hirosystems/explorer/blob/main/CODE_OF_CONDUCT.md) since we expect project participants to adhere to it. 
@@ -54,4 +54,4 @@ Join our community and stay connected with the latest updates and discussions:
 
 ## License
 
-The Stacks Explorer is open source and released under the MIT License.
+The FairCoin Explorer is open source and released under the MIT License.

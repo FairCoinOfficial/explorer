@@ -43,7 +43,7 @@ export const AppConfig: React.FC<{
     <Connect
       authOptions={{
         appDetails: {
-          name: 'Stacks Explorer',
+          name: 'FairCoin Explorer',
           icon: '/stx-circle.png',
         },
         userSession,

@@ -14,7 +14,7 @@ export const STACKS_EXPLORER_APP_ICON =
 export const DEFAULT_V2_INFO_ENDPOINT = '/v2/info';
 
 export const APP_DETAILS = {
-  name: 'Stacks Explorer',
+  name: 'FairCoin Explorer',
   icon: STACKS_EXPLORER_APP_ICON,
 };
 

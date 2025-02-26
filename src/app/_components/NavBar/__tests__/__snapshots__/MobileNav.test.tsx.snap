@@ -11,7 +11,7 @@ exports[`MobileNav should render correctly 1`] = `
       <a
         class="link css-m05bwu"
         href="/?chain=mainnet"
-        title="Stacks Explorer"
+        title="FairCoin Explorer"
       >
         <svg
           aria-hidden="true"

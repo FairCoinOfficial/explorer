@@ -53,7 +53,7 @@ const Home: NextPage = () => {
   const { activeNetwork } = useGlobalContext();
   return (
     <HomePageLayout
-      title={<PageTitle data-test="homepage-title">Stacks Explorer</PageTitle>}
+      title={<PageTitle data-test="homepage-title">FairCoin Explorer</PageTitle>}
       stats={!activeNetwork.isSubnet && <Stats />}
       txListTabs={
         <TxListTabs
