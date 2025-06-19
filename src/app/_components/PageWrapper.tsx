@@ -55,7 +55,7 @@ function WrapperWithBg({
   children: ReactNode;
   serverThemeCookie: string;
 }) {
-  const [clientThemeCookie] = useCookies(['stacks-explorer-theme']);
+  const [clientThemeCookie] = useCookies(['fairexplorer-theme']);
   const isServer = typeof window === 'undefined';
   const bgColor = isServer
     ? serverThemeCookie
@@ -63,8 +63,8 @@ function WrapperWithBg({
         ? lightBg
         : darkBg
       : lightBg
-    : clientThemeCookie['stacks-explorer-theme']
-      ? clientThemeCookie['stacks-explorer-theme'] === 'light'
+    : clientThemeCookie['fairexplorer-theme']
+      ? clientThemeCookie['fairexplorer-theme'] === 'light'
         ? lightBg
         : darkBg
       : lightBg;

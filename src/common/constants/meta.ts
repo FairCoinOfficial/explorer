@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const meta: Metadata = {
   metadataBase: new URL('https://fairco.in/'),
-  title: 'FAIRCoin Explorer (⊜)',
+  title: 'FAIRExplorer (⊜)',
   description:
     'Explore FAIRCoin (FAIR), a sustainable and fair cryptocurrency. Track your transactions, wallet, and network info in real time.',
   appleWebApp: {
@@ -10,18 +10,18 @@ export const meta: Metadata = {
     statusBarStyle: 'default',
   },
   openGraph: {
-    title: 'FAIRCoin Explorer (⊜)',
+    title: 'FAIRExplorer (⊜)',
     type: 'website',
     siteName: 'fairco.in',
     description:
       'Explore transactions and accounts on the FAIRCoin blockchain. A sustainable and fair cryptocurrency for everyone.',
-    images: '/FairCoinExplorer-OG.jpg',
+    images: '/FAIRExplorer-OG.jpg',
   },
   twitter: {
     card: 'summary_large_image',
     site: '@faircoin',
     creator: '@faircoin',
-    images: '/FairCoinExplorer-OG.jpg',
+    images: '/FAIRExplorer-OG.jpg',
   },
   icons: {
     icon: {
@@ -31,7 +31,7 @@ export const meta: Metadata = {
   },
 };
 
-export const DEFAULT_TITLE = 'FAIRCoin Explorer (⊜)';
+export const DEFAULT_TITLE = 'FAIRExplorer (⊜)';
 
 export const DEFAULT_DESCRIPTION =
   'Explore FAIRCoin (FAIR), a sustainable and fair cryptocurrency. Track your transactions, wallet, and network info in real time.';

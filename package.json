@@ -1,6 +1,6 @@
 {
   "name": "@faircoin/explorer",
-  "description": "The source code for the FairCoin Blockchain explorer.",
+  "description": "The source code for the FAIRCoin Blockchain explorer.",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm chakra-types && next build",
@@ -24,7 +24,7 @@
     "chakra-types": "pnpm chakra typegen ./src/ui/theme/theme.ts"
   },
   "version": "1.0.0",
-  "author": "FairCoin Development Team",
+  "author": "FAIRCoin Development Team",
   "dependencies": {
     "@chakra-ui/anatomy": "2.3.4",
     "@chakra-ui/react": "3.5.1",

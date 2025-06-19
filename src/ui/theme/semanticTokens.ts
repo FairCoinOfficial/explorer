@@ -2,7 +2,7 @@ import { SHADOWS } from './shadows';
 
 export const CURRENT_SEMANTIC_TOKENS = {
   colors: {
-    brand: { value: '#FC6432' },
+    brand: { value: '#A6F943' },
     borderPrimary: {
       value: { base: '{colors.slate.250}', _dark: '{colors.slate.850}' },
     },
@@ -253,7 +253,7 @@ export const CURRENT_SEMANTIC_TOKENS = {
         value: { base: '#FD6112', _dark: '#141414' },
       },
       circleColor: {
-        value: { base: '#F7F6F5', _dark: '#0C0C0D' },
+        value: { base: '#F7F6F5', _dark: '#151804' },
       },
       linearGradientColor: {
         value: { base: '#E5E0DC', _dark: '#3C3A38' },

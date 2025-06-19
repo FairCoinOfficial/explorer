@@ -28,7 +28,7 @@ export function Logo({
       h={includeRingsInSize ? outerRingSize : logoSize}
       w={includeRingsInSize ? outerRingSize : logoSize}
     >
-      <ExplorerLink href={'/'} title="FairCoin Explorer" className="logo">
+      <ExplorerLink href={'/'} title="FAIRExplorer" className="logo">
         <Flex
           h={logoSize}
           w={logoSize}

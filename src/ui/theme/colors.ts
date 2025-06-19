@@ -1,5 +1,5 @@
 export const COLORS = {
-  black: { value: '#0C0C0D' },
+  black: { value: '#151804' },
   blackAlpha: {
     50: { value: 'rgba(0, 0, 0, 0.04)' },
     100: { value: 'rgba(0, 0, 0, 0.06)' },

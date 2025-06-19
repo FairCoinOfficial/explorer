@@ -11,7 +11,7 @@ const meta = {
     layout: 'centered',
     backgrounds: {
       values: [
-        { name: 'dark', value: '#0C0C0D' },
+        { name: 'dark', value: '#151804' },
         { name: 'light', value: '#EAE8E6' },
       ],
       default: 'light',
