@@ -29,7 +29,7 @@ export default function Error({
 
   return (
     <Grid mt="32px" gap="32px" width="100%" gridTemplateColumns={['100%']}>
-      <PageTitle>FairCoin Explorer</PageTitle>
+      <PageTitle>FAIRExplorer</PageTitle>
       <Section>
         <Grid placeItems="center" p="32px" minHeight="350px">
           <Box>

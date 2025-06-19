@@ -16,11 +16,11 @@ export function ColorModeProvider(props: ColorModeProviderProps) {
 }
 
 export const useUpdateThemeCookie = () => {
-  const [_, setCookie] = useCookies(['stacks-explorer-theme']);
+  const [_, setCookie] = useCookies(['fairexplorer-theme']);
 
   const setThemeCookie = useCallback(
     (theme: 'light' | 'dark') => {
-      setCookie('stacks-explorer-theme', theme, {
+      setCookie('fairexplorer-theme', theme, {
         path: '/',
         maxAge: 31536000, // 1 year in seconds
         sameSite: 'lax',

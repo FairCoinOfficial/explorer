@@ -213,7 +213,7 @@ const createWeight = ({
         y2="6"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.276042" stop-color="#FC6432" stop-opacity="0.69" />
+        <stop offset="0.276042" stop-color="#A6F943" stop-opacity="0.69" />
         <stop offset="0.526042" stop-color={linearGradientColor} stop-opacity="0.44" />
       </linearGradient>
       <linearGradient
@@ -224,7 +224,7 @@ const createWeight = ({
         y2="12.2291"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.276042" stop-color="#FC6432" stop-opacity="0.69" />
+        <stop offset="0.276042" stop-color="#A6F943" stop-opacity="0.69" />
         <stop offset="0.526042" stop-color={linearGradientColor} stop-opacity="0.34" />
       </linearGradient>
       <linearGradient
@@ -235,7 +235,7 @@ const createWeight = ({
         y2="12.2291"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.276042" stop-color="#FC6432" stop-opacity="0.69" />
+        <stop offset="0.276042" stop-color="#A6F943" stop-opacity="0.69" />
         <stop offset="0.526042" stop-color={linearGradientColor} stop-opacity="0.34" />
       </linearGradient>
       <linearGradient
@@ -246,7 +246,7 @@ const createWeight = ({
         y2="19.3732"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.276042" stop-color="#FC6432" stop-opacity="0.69" />
+        <stop offset="0.276042" stop-color="#A6F943" stop-opacity="0.69" />
         <stop offset="0.629036" stop-color={linearGradientColor} stop-opacity="0.34" />
       </linearGradient>
       <linearGradient
@@ -257,7 +257,7 @@ const createWeight = ({
         y2="19.3732"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.276042" stop-color="#FC6432" stop-opacity="0.69" />
+        <stop offset="0.276042" stop-color="#A6F943" stop-opacity="0.69" />
         <stop offset="0.526042" stop-color={linearGradientColor} stop-opacity="0.34" />
       </linearGradient>
     </defs>

@@ -1,12 +1,12 @@
 # Explorer Sandbox
 
-Within the FairCoin Explorer, there's a handy developer [Sandbox](https://explorer.hiro.so/sandbox/deploy?chain=mainnet) that lets you explore, deploy and execute Clarity contracts. The Explorer Sandbox has four main features. In order to use the Explorer Sandbox, you must first connect a FairCoin-compatible wallet.
+Within the FAIRExplorer, there's a handy developer [Sandbox](https://explorer.hiro.so/sandbox/deploy?chain=mainnet) that lets you explore, deploy and execute Clarity contracts. The Explorer Sandbox has four main features. In order to use the Explorer Sandbox, you must first connect a FAIRCoin-compatible wallet.
 
 ## Write & Deploy
 [Write & Delpoy](https://explorer.hiro.so/sandbox/deploy?chain=mainnet) is a simple user interface to edit and deploy contracts. It works on mainnet and testnet. In this code editor, you can copy/ paste code from another source, use sample contracts and change contract parameters. If you want to save your contracts, you can also connect to the [Hiro Platform](https://platform.hiro.so/).
 
 ## Function Call
-[Function call](https://explorer.hiro.so/sandbox/contract-call?chain=mainnet) lets you call any function within a contract. You can chose from the most popular contracts on FairCoin or search for your own. 
+[Function call](https://explorer.hiro.so/sandbox/contract-call?chain=mainnet) lets you call any function within a contract. You can chose from the most popular contracts on FAIRCoin or search for your own. 
 
 ## STX Transfer
 [STX transfer](https://explorer.hiro.so/sandbox/transfer?chain=mainnet) makes it easy to send STX from your connected wallet to another STX compatible address.
